@@ -4,7 +4,7 @@ import Button from '../components/Button'
 import Modal from '../components/Modal'
 import { fsAdd, fsDelete, fsUpdate, fsListen } from '../firebase'
 import { WhoContext, ToastContext, RoleContext } from '../App'
-import { USER_KISHAN, USER_ADITI } from '../constants'
+import { USER_SUMIT, USER_SANYA } from '../constants'
 
 // Only allow safe URL schemes; returns a sanitised URL or null if rejected.
 const ALLOWED_SCHEMES = ['http:', 'https:', 'mailto:', 'tel:']
