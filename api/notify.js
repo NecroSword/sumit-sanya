@@ -13,7 +13,7 @@ const { sendNotification, setVapidDetails } = pkg
 // ── Origin allowlist ──────────────────────────────────────────────────────────
 // Only accept requests originating from the production domain or localhost (dev).
 const ALLOWED_ORIGINS = new Set([
-  'https://kishanlovesaditi.online',
+  'https://sumitlovessanya.online',
   'http://localhost:5173',
   'http://localhost:4173',
 ])
@@ -117,7 +117,7 @@ export default async function handler(req, res) {
 
   try {
     setVapidDetails(
-      'mailto:notifications@kishanlovesaditi.online',
+      'mailto:notifications@sumitlovessanya.online',
       vapidPublic,
       vapidPrivate
     )

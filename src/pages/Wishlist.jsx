@@ -80,7 +80,7 @@ export default function Wishlist() {
     }
 
     // Partner is the opposite of the logged-in user
-    const partner = who === USER_KISHAN ? USER_ADITI : USER_KISHAN
+    const partner = who === USER_SUMIT ? USER_SANYA : USER_SUMIT
 
     const myItems = items.filter(i => i.who === who)
     const partnerItems = items.filter(i => i.who === partner)
@@ -109,8 +109,8 @@ export default function Wishlist() {
             <div className="tabs-container">
                 {[
                     { key: 'all', label: 'All', icon: '🎁', count: items.length },
-                    { key: 'mine', label: 'Mine', icon: who === USER_KISHAN ? '💙' : '🌸', count: myItems.length },
-                    { key: 'partner', label: partner, icon: who === USER_KISHAN ? '🌸' : '💙', count: partnerItems.length },
+                    { key: 'mine', label: 'Mine', icon: who === USER_SUMIT ? '💙' : '🌸', count: myItems.length },
+                    { key: 'partner', label: partner, icon: who === USER_SUMIT ? '🌸' : '💙', count: partnerItems.length },
                 ].map(tab => (
                     <button
                         key={tab.key}
@@ -147,7 +147,7 @@ export default function Wishlist() {
 
                                 <div style={s.itemTop}>
                                     <div style={s.ownerTag}>
-                                        {item.who === USER_KISHAN ? '💙' : '🌸'} {item.who}'s wish
+                                        {item.who === USER_SUMIT ? '💙' : '🌸'} {item.who}'s wish
                                     </div>
                                     {!isVisitor && (
                                         <button style={s.delBtn} onClick={() => del(item.id)}>🗑</button>

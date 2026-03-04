@@ -1,4 +1,4 @@
-# 💕 Kishan & Aditi — Couple App v2
+# 💕 Sumit & Sanya — Couple App v2
 
 A beautiful, real-time shared couples app with lock screen, polaroid memories, live countdowns, and more.
 
@@ -8,7 +8,7 @@ A beautiful, real-time shared couples app with lock screen, polaroid memories, l
 
 ### Step 1 — Firebase (for notes, moods, todos, etc.)
 
-1. Go to **https://console.firebase.google.com** → Create project → name it `kishan-aditi`
+1. Go to **https://console.firebase.google.com** → Create project → name it `Sumit-sanya`
 2. Click the `</>` Web icon → Register app → copy the `firebaseConfig` values
 3. Left sidebar → **Firestore Database** → Create database → **Start in test mode** → Done
 4. *(No need to enable Storage — photos go to Cloudinary)*
@@ -27,9 +27,9 @@ Copy `.env.example` to `.env.local` and fill in:
 
 ```
 VITE_FIREBASE_API_KEY=AIzaSy...
-VITE_FIREBASE_AUTH_DOMAIN=kishan-aditi.firebaseapp.com
-VITE_FIREBASE_PROJECT_ID=kishan-aditi
-VITE_FIREBASE_STORAGE_BUCKET=kishan-aditi.appspot.com
+VITE_FIREBASE_AUTH_DOMAIN=Sumit-sanya.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=Sumit-sanya
+VITE_FIREBASE_STORAGE_BUCKET=Sumit-sanya.appspot.com
 VITE_FIREBASE_MESSAGING_SENDER_ID=123456789
 VITE_FIREBASE_APP_ID=1:123...web:abc...
 
@@ -42,7 +42,7 @@ VITE_CLOUDINARY_UPLOAD_PRESET=couple_app
 ```bash
 git init
 git add .
-git commit -m "💕 Kishan & Aditi app"
+git commit -m "💕 Sumit & Sanya app"
 git branch -M main
 git remote add origin https://github.com/YOUR_USERNAME/couple-app.git
 git push -u origin main
@@ -55,7 +55,7 @@ git push -u origin main
 3. Click **"Environment Variables"** → add all 8 vars from `.env.local`
 4. Click **Deploy** 🚀
 
-Share the live URL with Aditi — you'll both see the same data in real-time! 💕
+Share the live URL with Sanya — you'll both see the same data in real-time! 💕
 
 ---
 
@@ -86,4 +86,4 @@ Only you two know this! Multiple date formats are accepted.
 
 ---
 
-Made with 💕 for Kishan & Aditi
+Made with 💕 for Sumit & Sanya

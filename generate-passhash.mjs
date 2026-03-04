@@ -19,7 +19,7 @@ function sha256(text) {
   return createHash('sha256').update(text.trim()).digest('hex')
 }
 
-console.log('\n💕 Kishan & Aditi — Passphrase Setup\n')
+console.log('\n💕 Sumit & Sanya — Passphrase Setup\n')
 console.log('Choose a secret word or short phrase that only you two know.')
 console.log('Examples: a nickname, a favourite song lyric, a shared memory...\n')
 

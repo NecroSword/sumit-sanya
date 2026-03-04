@@ -1,6 +1,6 @@
 rules_version = '2';
 
-// Kishan & Aditi Couple App — Firestore Security Rules
+// Sumit & Sanya Couple App — Firestore Security Rules
 // ────────────────────────────────────────────────────
 //
 // PUBLIC collections (anyone can read):

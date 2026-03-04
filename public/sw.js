@@ -1,4 +1,4 @@
-// Service Worker for Kishan & Aditi PWA
+// Service Worker for Sumit & Sanya PWA
 // Enables: Add to Home Screen, offline splash, Web Push notifications
 
 const CACHE_NAME = 'ka-app-v4'
@@ -41,7 +41,7 @@ self.addEventListener('push', e => {
   try { data = e.data ? e.data.json() : {} } catch {}
 
   e.waitUntil(
-    self.registration.showNotification(data.title || 'Kishan & Aditi 💕', {
+    self.registration.showNotification(data.title || 'Sumit & Sanya 💕', {
       body:    data.body    || 'Something new is waiting for you 🌸',
       icon:    '/icon.png',
       badge:   '/icon.png',
